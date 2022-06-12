@@ -1,0 +1,9 @@
+.header-calculator {
+  width: 100%;
+  height: 20%;
+
+  display: flex;
+  font-size: 34px;
+  align-items: center;
+  justify-content: center;
+}
