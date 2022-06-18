@@ -33,14 +33,14 @@ export const CurrencyConverter = () => {
 
   return (
     <form action="#">
-      <div class="amount">
+      <div className="amount">
         <p>Wpisz kwotę</p>
         <input onChange={handleOnInputChange} type="text" value={amount} />
       </div>
-      <div class="drop-list">
-        <div class="from">
+      <div className="drop-list">
+        <div className="from">
           <p>Z</p>
-          <div class="select-box">
+          <div className="select-box">
             <select onChange={handleChangeFirstSelect}>
               <option value="USD">USD</option>
               <option value="PLN">PLN</option>
@@ -50,12 +50,12 @@ export const CurrencyConverter = () => {
             </select>
           </div>
         </div>
-        <div class="icon">
-          <i class="fas fa-exchange-alt"></i>
+        <div className="icon">
+          <i className="fas fa-exchange-alt"></i>
         </div>
-        <div class="to">
+        <div className="to">
           <p>Na</p>
-          <div class="select-box">
+          <div className="select-box">
             <select onChange={handleChangeSecondSelect}>
               <option value="PLN">PLN</option>
               <option value="USD">USD</option>
@@ -65,7 +65,7 @@ export const CurrencyConverter = () => {
           </div>
         </div>
       </div>
-      <div class="exchange-rate">{result}</div>
+      <div className="exchange-rate">{result}</div>
       <button onClick={handleClick}>Sprawdz kurs</button>
     </form>
   );

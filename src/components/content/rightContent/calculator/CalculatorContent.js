@@ -5,7 +5,7 @@ import HeaderCalculator from "./HeaderCalculator";
 
 const CalculatorContent = () => {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <HeaderCalculator />
       <CurrencyConverter />
     </div>
